@@ -1,10 +1,10 @@
+import DoughnutChart from '@/app/components/DoughnutChart'
 import React from 'react'
-import BarChart from './components/BarChart'
 
 const page = () => {
   return (
     <div>
-      <BarChart />
+      <DoughnutChart />
     </div>
   )
 }

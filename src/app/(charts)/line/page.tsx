@@ -1,10 +1,11 @@
+import LineChart from '@/app/components/LineChart'
 import React from 'react'
-import BarChart from './components/BarChart'
 
 const page = () => {
+    
   return (
     <div>
-      <BarChart />
+      <LineChart /> 
     </div>
   )
 }

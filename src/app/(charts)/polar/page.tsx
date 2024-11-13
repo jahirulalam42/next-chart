@@ -1,10 +1,10 @@
+import PolarAreaChart from '@/app/components/PolarAreaChart'
 import React from 'react'
-import BarChart from './components/BarChart'
 
 const page = () => {
   return (
     <div>
-      <BarChart />
+      <PolarAreaChart />
     </div>
   )
 }
